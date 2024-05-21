@@ -30,7 +30,7 @@ history = ascii_bytes_from(thisdir, "HISTORY.rst")
 version = re.search(r'__version__ = "([^"]+)"', init_py).group(1)
 
 
-NAME = "Sparkfish/python-pptx"
+NAME = "sparkfish-python-pptx"
 VERSION = version
 DESCRIPTION = "An extension of the awesome project by Steve Canny with RowCollection and ColumnCollection add methods. Generate and manipulate Open XML PowerPoint (.pptx) files"
 KEYWORDS = "powerpoint ppt pptx office open xml"
