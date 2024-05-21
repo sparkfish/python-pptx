@@ -30,13 +30,13 @@ history = ascii_bytes_from(thisdir, "HISTORY.rst")
 version = re.search(r'__version__ = "([^"]+)"', init_py).group(1)
 
 
-NAME = "python-pptx"
+NAME = "Sparkfish/python-pptx"
 VERSION = version
-DESCRIPTION = "Generate and manipulate Open XML PowerPoint (.pptx) files"
+DESCRIPTION = "An extension of the awesome project by Steve Canny with RowCollection and ColumnCollection add methods. Generate and manipulate Open XML PowerPoint (.pptx) files"
 KEYWORDS = "powerpoint ppt pptx office open xml"
 AUTHOR = "Steve Canny"
 AUTHOR_EMAIL = "python-pptx@googlegroups.com"
-URL = "https://github.com/scanny/python-pptx"
+URL = "https://github.com/sparkfish/python-pptx"
 LICENSE = "MIT"
 PACKAGES = find_packages(exclude=["tests", "tests.*"])
 PACKAGE_DATA = {"pptx": ["templates/*"]}
